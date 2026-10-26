@@ -1,6 +1,9 @@
 // Documentation © Apple, Inc.
 
 import CoreFoundation
+#if canImport(Glibc)
+import Glibc
+#endif
 
 import struct Foundation.Data
 import class Foundation.InputStream
